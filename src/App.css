@@ -1,0 +1,27 @@
+.carousel-container {
+  margin: 20px;
+  position: relative;
+}
+
+.carousel-item {
+  position: relative;
+  text-align: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
